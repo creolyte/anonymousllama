@@ -1,4 +1,5 @@
 <?php 
+	// You need to run this file in your localhost to see the result.
 	for( $x=1; $x<=100; $x++ )
 	{
 		$message = '';
