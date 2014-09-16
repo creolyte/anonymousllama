@@ -1,14 +1,14 @@
 <?php 
-	for( $x=0; $x<=100; $x++ )
+	for( $x=1; $x<=100; $x++ )
 	{
 		$message = '';
 		if( $x % 3 === 0 )
 		{
-			$message .= 'anonymous';
+			$message .= 'Anonymous';
 		}
 		if( $x % 5 === 0 )
 		{
-			$message .= 'llama';
+			$message .= 'Llama';
 		}
 		if( empty($message) )
 		{
